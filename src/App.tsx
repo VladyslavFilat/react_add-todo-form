@@ -16,7 +16,7 @@ interface Todo {
   userId: number;
   title: string;
   completed: boolean;
-  user: User | null; // додай це
+  user: User | null;
 }
 
 const getUserById = (userId: number) =>
